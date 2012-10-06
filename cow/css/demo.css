@@ -15,6 +15,7 @@ body {
 a {
   color: #fff;
   text-decoration: none;
+
 }
 
 a:hover {
@@ -80,16 +81,27 @@ div.spacer {
 
  div#navbar {
  	background-color: #4c0000;
- 	padding: 10px 0;
- 	margin-bottom:10px;
+ 	margin:10px;
  	color:white;
  	text-align:center;
 }
 
 #navbar ul { 
-	margin: 0 auto;
+	height:50px;
+	margin:0px;
 	list-style: none;
+
  }
+ 
+#navbar li {
+	padding:10px 30px 10px 30px;
+	color:black;
+}
+
+#navbar li.selected {
+ border-bottom: 5px solid white;
+ background:#310000;
+}
 
 #footer {
 	text-align:center;
@@ -118,7 +130,7 @@ padding-top: 0px;
 	font-size: 0.9em;
 }
 
-#names a:hover {color:#4c0000}
+#names a:hover {color:#FE8080}
 
 #def p {
 	padding-left: 30px;
