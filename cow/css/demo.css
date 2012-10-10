@@ -22,8 +22,8 @@ a {
 
 
 h1 {
-  font-family: Georgia, serif;
-  font-weight: normal;
+  font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  font-weight: bold;
   padding-top: 20px;
   text-align: center;
 }
@@ -32,9 +32,6 @@ h2 {
   text-align: left;
 }
 
-h4 {
-	color: #350000;
-}
 
 p {
   border: 0px solid #666;
@@ -132,14 +129,22 @@ padding-top: 0px;
 	padding-left: 40px;
 }
 
-#names h2 {padding-left:20px }
+#names dl {
+	font-size: 0.8em;
+	padding-left: 40px;
+}
+
+#names h2 {
+	padding-left:20px;
+	font-size:0.95em;
+}
 
 #names a {
-	color: #2d100f;
+	color: black;
 	font-size: 0.9em;
 }
 
-#names a:hover {color:#FE8080}
+#names a:hover {font-weight: 600;}
 
 #def p {
 	padding-left: 30px;

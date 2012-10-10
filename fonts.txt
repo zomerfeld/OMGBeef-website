@@ -1,0 +1,7 @@
+Color list:
+4c0000 - Basic background dark red
+310000 - Hover over navbar
+White - navbar titles
+grey - footer
+FE8080 - pink - hover over links in names
+Black
