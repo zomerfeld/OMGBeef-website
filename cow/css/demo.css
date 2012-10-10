@@ -19,9 +19,7 @@ a {
 
 }
 
-a:hover {
-  color:grey;
-}
+
 
 h1 {
   font-family: Georgia, serif;
@@ -80,30 +78,39 @@ div.spacer {
 	
 }
 
- div#navbar {
+ .navbar {
  	background-color: #4c0000;
  	margin:10px;
  	color:white;
  	text-align:center;
 }
 
-#navbar ul { 
+.navbar ul { 
 	height:50px;
 	margin:0px;
 	list-style: none;
 
  }
  
-#navbar li {
+.navbar li {
 	padding:10px 30px 10px 30px;
 	margin: auto auto auto 10px;
 	color:black;
 }
 
-#navbar li.selected {
- border-bottom: 5px solid white;
+.navbar li.selected {
  background:#310000;
 }
+
+.navbar li:hover {
+ background:#310000;
+ }
+ 
+ .navbar li:hover ~ li.selected {
+	background: #4c0000
+}
+ 
+ 
 
 #footer {
 	text-align:center;
