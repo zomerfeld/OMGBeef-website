@@ -62,6 +62,10 @@ p {
   background-image: url(../img/24_col.gif);
 }
 
+dl {
+	color:black
+}
+
 div.spacer {
 	background-color: #4c0000;
 	height: 1em;
@@ -122,14 +126,33 @@ div.spacer {
 .names {
 font-size:2em;
 padding-top: 10px;	
-
 }
 
+.ab {
+	position:absolute;
+}
 
+.transp {
+	position:absolute;
+	z-index:10;
+	padding: 10px 0 0 40px;
+}
 
 .names dl {
 	font-size: 0.8em;
 	padding-left: 40px;
+}
+
+.names h1 {
+position: absolute;
+padding-left: 30px;
+margin-top: -60px;
+margin-left: -20px;
+padding-top: 0px;
+font-size: 7em;
+z-index: 1;
+color: black;
+opacity: 0.5;
 }
 
 .names h2 {
@@ -138,7 +161,8 @@ padding-top: 10px;
 	font-size:0.95em;
 }
 
-.names a,dd {
+
+.names a {
 	color: #515151;
 	font-size: 0.9em;
 }
@@ -226,7 +250,9 @@ div.bord div {
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:auto;
-	padding: 10px 0px 10px 40px;
+	padding: 10px 0px 10px 40px; 
+/**	padding: 10px 130px 10px 0px; **/
+
 	}	
  
 .top img {
@@ -266,8 +292,8 @@ div.bord div {
     top: 50%;
     left: 50%;
     width:960px;
-    height: 550px;
-    margin-top: -275px; /*set to a negative number 1/2 of your height*/
+    height: 565px;
+    margin-top: -282px; /*set to a negative number 1/2 of your height*/
     margin-left: -480px; /*set to a negative number 1/2 of your width*/
     border: 1px solid #ccc;
     background-color: #f3f3f3;
