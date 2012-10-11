@@ -22,7 +22,7 @@ a {
 
 
 h1 {
-  font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+  /**font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;**/
   font-weight: bold;
   padding-top: 20px;
   text-align: center;
@@ -135,7 +135,7 @@ padding-top: 10px;
 .transp {
 	position:absolute;
 	z-index:10;
-	padding: 10px 0 0 40px;
+	padding: 20px 0 0 60px;
 }
 
 .names dl {
@@ -152,7 +152,8 @@ padding-top: 0px;
 font-size: 7em;
 z-index: 1;
 color: black;
-opacity: 0.5;
+opacity: 0.3;
+font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
 .names h2 {
@@ -169,7 +170,7 @@ opacity: 0.5;
 
 .names a:hover {
 	color:black;
-	font-weight:700;
+	font-weight:400;
 }
 
 .hebname {
