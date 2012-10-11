@@ -1,7 +1,28 @@
 Color list:
 4c0000 - Basic background dark red
 310000 - Hover over navbar
-White - navbar titles
-grey - footer
-FE8080 - pink - hover over links in names
+515151 - names links
 Black
+
+not used:
+FE8080 - pink - not used
+White - navbar titles
+
+
+
+Thanks yous
+Ateret
+Nadav
+Jason
+Jeremy
+
+Sources:
+http://passion-cuisine.skynetblogs.be/archive/2008/01/05/les-parties-du-boeuf.html
+ynet
+http://rkb.co.il/product_category/%D7%91%D7%A7%D7%A8/page/2/
+http://www.foodlexicon.net/cowords.htm
+http://www.beefresearch.org/CMDocs/BeefResearch/Beef%20Retail%20Cuts%20Alternative%20Names.pdf
+http://www.amazingribs.com/images/beef/angus_beef_chart.pdf
+http://www.hinnawi.com/
+http://www.meatshos.co.il/
+http://lizraelupdate.com/2008/02/10/israeli-beef-cuts-explained-no-more-freezing-hands/

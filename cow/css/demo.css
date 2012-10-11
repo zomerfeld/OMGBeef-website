@@ -116,35 +116,88 @@ div.spacer {
 	border-top: 5px solid #4c0000;
 }
 
-#footer a {color: #4c0000;}
+#footer a {color: black}
 #footer a:hover {color: #4c0000;}
 
-#names {
+.names {
 font-size:2em;
-padding-top: 0px;	
+padding-top: 10px;	
+
 }
 
-#names dl {
-	font-size: 0.9em;
-	padding-left: 40px;
-}
 
-#names dl {
+
+.names dl {
 	font-size: 0.8em;
 	padding-left: 40px;
 }
 
-#names h2 {
+.names h2 {
 	padding-left:20px;
+	padding-top:5px;
 	font-size:0.95em;
 }
 
-#names a {
-	color: black;
+.names a,dd {
+	color: #515151;
 	font-size: 0.9em;
 }
 
-#names a:hover {font-weight: 600;}
+.names a:hover {
+	color:black;
+	font-weight:700;
+}
+
+.hebname {
+	display: inline;
+	float: left;
+	margin-right:0px;
+	margin-left:10px;
+	text-align:right;
+	width:130px;
+	overflow:hidden;
+
+}
+
+.num {
+	display: inline;
+	float: left;
+	margin-right:10px;
+	margin-left:10px;
+	width:40px;
+	text-align:center;
+	overflow:hidden;
+}
+
+.num dd {
+	padding:0px;
+	color:#4c0000;
+	font-weight: bold;
+	font-size:1em;
+	overflow:hidden;
+
+		
+}
+
+
+.engname {
+	display: inline;
+	float: left;
+	margin-left:0px;
+	margin-right:10px;
+	text-align:left;
+	overflow: hidden;
+	width:250px;
+
+}
+
+.engname dd {
+	padding:0px; 
+	height:30px;
+	overflow:hidden;
+
+}
+
 
 #def p {
 	padding-left: 30px;
@@ -219,3 +272,5 @@ div.bord div {
     border: 1px solid #ccc;
     background-color: #f3f3f3;
 }
+
+
