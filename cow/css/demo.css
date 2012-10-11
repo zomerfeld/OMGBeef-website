@@ -143,6 +143,11 @@ padding-top: 10px;
 	padding-left: 40px;
 }
 
+.names dd {
+	font-size: 0.9em;
+	padding-left: 40px;
+}
+
 .names h1 {
 position: absolute;
 padding-left: 30px;
@@ -179,7 +184,7 @@ font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 	margin-right:0px;
 	margin-left:10px;
 	text-align:right;
-	width:130px;
+	width:140px;
 	overflow:hidden;
 
 }
@@ -189,7 +194,7 @@ font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 	float: left;
 	margin-right:10px;
 	margin-left:10px;
-	width:40px;
+	width:30px;
 	text-align:center;
 	overflow:hidden;
 }
@@ -226,6 +231,7 @@ font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 
 #def p {
 	padding-left: 30px;
+	/** font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; **/
 }
 
  
