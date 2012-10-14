@@ -135,7 +135,7 @@ padding-top: 10px;
 .transp {
 	position:absolute;
 	z-index:10;
-	padding: 20px 0 0 60px;
+	padding: 20px 0 0 100px;
 }
 
 .names dl {
@@ -150,14 +150,16 @@ padding-top: 10px;
 
 .names h1 {
 position: absolute;
-padding-left: 30px;
-margin-top: -60px;
+padding-left: 20px;
+margin-top: -80px;
 margin-left: -20px;
 padding-top: 0px;
 font-size: 7em;
 z-index: 1;
 color: black;
 opacity: 0.3;
+text-align:center;
+width:172px;
 font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
