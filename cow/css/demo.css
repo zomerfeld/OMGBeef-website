@@ -84,6 +84,8 @@ div.spacer {
  	margin:10px;
  	color:white;
  	text-align:center;
+ 	z-index:100;
+ 	position:relative;
 }
 
 .navbar ul { 
