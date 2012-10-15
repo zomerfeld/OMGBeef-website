@@ -238,6 +238,15 @@ font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 	/** font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; **/
 }
 
+#def a {
+	color:#4c0000;
+	text-decoration:underline;
+}
+
+#def a:hover{
+	text-transform:uppercase;
+}
+
  
 div.bord div {
 }
