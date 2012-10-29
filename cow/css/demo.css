@@ -312,11 +312,27 @@ div.bord div {
     top: 50%;
     left: 50%;
     width:960px;
-    height: 565px;
+    height: 620px;
     margin-top: -282px; /*set to a negative number 1/2 of your height*/
     margin-left: -480px; /*set to a negative number 1/2 of your width*/
     border: 1px solid #ccc;
     background-color: #f3f3f3;
 }
 
+.mom {
+	font-size:1.8em;
+	font-style:bold;
+	text-align:left;
+	padding: 20px 30px;
+	text-align=center;
+	margin:0px;
+}
+.quote {
+	text-align:left;
+	padding:0px 40px;
+}
 
+.omg {
+  font-family: 'Malayalam MN', 'Kartika', 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+
+}

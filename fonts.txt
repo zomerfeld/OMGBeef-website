@@ -3,11 +3,14 @@ Color list:
 310000 - Hover over navbar
 515151 - names links
 Black
+White - navbar titles
+
 
 not used:
 FE8080 - pink - not used
-White - navbar titles
 
+Header:
+Malayalam MN
 
 
 Thanks yous
