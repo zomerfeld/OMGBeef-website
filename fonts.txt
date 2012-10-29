@@ -4,6 +4,7 @@ Color list:
 515151 - names links
 Black
 White - navbar titles
+ffb7b7 - selection
 
 
 not used:
