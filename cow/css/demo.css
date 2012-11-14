@@ -3,7 +3,7 @@
 }
 
 body {
-	background: url(/cow/images/bg5.jpg) no-repeat fixed;
+	background: url(/cow/images/bg7.png) no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -339,4 +339,28 @@ div.bord div {
 .omg {
   font-family: 'Malayalam MN', 'Kartika', 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 
+}
+
+.main p{
+	font-size:20px;
+	text-align:left;
+}
+
+.main a {
+	font-size:20px;
+	color:#4c0000;
+}
+
+.main a:hover {
+	color:grey;
+}
+
+.main dt {
+	padding-bottom: 5px;
+	font-size:1.4em;
+}
+
+.main dd a{
+	padding: 0px 0px 0px 10px;
+	font-size:1.2em;
 }
