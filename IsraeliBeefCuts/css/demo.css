@@ -3,7 +3,7 @@
 }
 
 body {
-	background: url(/cow/images/bg_9.jpg) no-repeat fixed;
+	background: url(/IsraeliBeefCuts/images/bg_9.jpg) no-repeat fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -155,7 +155,7 @@ padding-top: 10px;
 	padding-left: 40px;
 }
 
-.names h1 {
+.names h2 {
 position: absolute;
 padding-left: 20px;
 margin-top: -80px;
@@ -170,10 +170,11 @@ width:172px;
 font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-.names h2 {
+.names h1 {
 	padding-left:20px;
 	padding-top:5px;
 	font-size:0.95em;
+	text-align:left;
 }
 
 
@@ -380,4 +381,15 @@ div.bord div {
 	margin-left:auto;
 	margin-right:auto;
 	width:460px;
+}
+
+.invisible {
+	height:0;
+	width:0;
+	margin:0;
+}
+
+.invisible h1{
+	size:0;
+	font-size:0;
 }
