@@ -266,7 +266,7 @@ div.bord div {
 .bline_thin {
   border-bottom: 6px solid black;
   margin-top:10px;
-  margin-bottom:10px:
+  margin-bottom:10px;
  }
 
 .top {
@@ -335,7 +335,7 @@ div.bord div {
 	font-style:bold;
 	text-align:left;
 	padding: 20px 30px;
-	text-align=center;
+	text-align:enter;
 	margin:0px;
 }
 .quote {
