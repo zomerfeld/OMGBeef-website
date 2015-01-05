@@ -236,18 +236,17 @@ font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
 
 }
 
-#def {
+
+#def p {
+	padding-left: 30px;
+	/** font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; **/
 	columns: 100px 2;
 	column-gap:40px;
 	-webkit-columns: 100px 2;
 	-webkit-column-gap: 40px;
 	-moz-columns: 100px 2;
 	-moz-column-gap:40px;
-}
 
-#def p {
-	padding-left: 30px;
-	/** font-family: 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif; **/
 }
 
 #def a {
